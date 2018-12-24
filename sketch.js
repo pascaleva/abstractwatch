@@ -33,7 +33,7 @@ function draw() {
 
 	 //big ellipses increase = minutes
 	 	 for (var j = 0; j < minute(); j ++){
-	 			stroke(strokeR, strokeG, strokeB,60);
+	 			stroke(strokeR, strokeG, strokeB, 85);
 	 			ellipse(0, 0, 515+j*14, 515+j*14);
 	 	 }
 
